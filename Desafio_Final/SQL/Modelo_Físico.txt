@@ -1,0 +1,48 @@
+/* Lógico_1: */
+
+CREATE TABLE Gasde_de_Energia__Centena_ (
+    Anos INT,
+    Janeiro INT,
+    Fevereiro INT,
+    Marco INT,
+    Maio INT,
+    Abril INT,
+    Julho INT,
+    Agosto INT,
+    Junho INT,
+    Setembro INT,
+    Outubro INT,
+    Novembro INT,
+    Dezembro INT
+);
+
+CREATE TABLE Boletim_1°_Bimestre (
+    Avaliacoes FLOAT,
+    Matematica_ FLOAT,
+    Portugues FLOAT,
+    Historia FLOAT,
+    Ingles FLOAT,
+    Biologia FLOAT,
+    Filosofia FLOAT,
+    Geografia FLOAT,
+    Quimica FLOAT,
+    Sociologia FLOAT,
+    Fisica FLOAT
+);
+
+CREATE TABLE Lista_de_Recrutadores (
+    Nome_ VARCHAR,
+    Idade VARCHAR,
+    Especialidade_ VARCHAR,
+    Hobby_ VARCHAR
+);
+
+CREATE TABLE Venda_Produtos (
+    id_produtos VARCHAR,
+    Produtos VARCHAR,
+    Quantidade_ VARCHAR,
+    Valores VARCHAR
+);
+
+CREATE TABLE Graficos_Gasde_de_Energia__Centena__Boletim_1°_Bimestre_Venda_Produtos_Lista_de_Recrutadores (
+);
